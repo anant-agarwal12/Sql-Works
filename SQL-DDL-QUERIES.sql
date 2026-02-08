@@ -22,3 +22,5 @@ DROP COLUMN phone;
 ALTER TABLE persons
 ALTER COLUMN email VARCHAR(40) NOT NULL;
 
+DROP TABLE persons;
+
