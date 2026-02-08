@@ -22,5 +22,6 @@ DROP COLUMN phone;
 ALTER TABLE persons
 ALTER COLUMN email VARCHAR(40) NOT NULL;
 
+-- 5. Drop the "persons" table from the database.
 DROP TABLE persons;
 
